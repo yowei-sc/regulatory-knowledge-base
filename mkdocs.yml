@@ -1,0 +1,42 @@
+site_name: 資安法規與標準知識庫
+site_description: 以官方來源整理 CRA、產品資安標準與 O-RAN 安全規格的繁體中文知識庫
+
+theme:
+  name: mkdocs
+  locale: zh_TW
+  navigation_depth: 3
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - powershell
+
+nav:
+  - 首頁: index.md
+  - CRA:
+      - 制度概覽: cra/index.md
+      - 適用範圍: cra/scope.md
+      - 製造商義務: cra/manufacturer-obligations.md
+  - 產品資安標準:
+      - EN 304 627 概覽: standards/en-304-627/index.md
+      - 產品情境與評估邊界: standards/en-304-627/product-context.md
+  - O-RAN 安全規格:
+      - 規格定位: oran/index.md
+      - 安全測試概覽: oran/security-testing-overview.md
+  - 資料來源與編輯原則:
+      - 來源分級: methodology/source-levels.md
+      - 內容與引用政策: methodology/content-policy.md
+  - 關於本站: about.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+copyright: 本站為學習與研究用途，不取代法規原文、標準原文、驗證機構意見或法律意見。
+
+strict: true

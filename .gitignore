@@ -1,0 +1,6 @@
+/source-material-private/
+/site/
+/.cache/
+/.venv/
+/.tools/
+__pycache__/
