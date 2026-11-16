@@ -4,11 +4,14 @@ site_description: 以官方來源整理 CRA、產品資安標準與 O-RAN 安全
 theme:
   name: mkdocs
   locale: zh_TW
+  custom_dir: overrides
   navigation_depth: 3
   highlightjs: true
   hljs_languages:
     - yaml
     - powershell
+
+plugins: []
 
 nav:
   - 首頁: index.md
